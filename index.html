@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <wu-jie></wu-jie>
+    <div>外层的div,用于测试样式是否受template的影响</div>
+
+    <template id="wujie">
+      <style>
+        div {
+          color: blue;
+        }
+      </style>
+      <div>我是Wujie-template中的组件</div>
+    </template>
+  </body>
+</html>
